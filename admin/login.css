@@ -1,0 +1,101 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Warna latar belakang */
+body {
+  background: linear-gradient(135deg, #123524, #1f4037);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container Login */
+.login-container {
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-container h2 {
+  color: #123524;
+  margin-bottom: 24px;
+}
+
+/* Form */
+.form-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #123524;
+}
+
+/* Tombol login */
+.btn-login {
+  width: 100%;
+  padding: 12px;
+  background-color: #123524;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+  background-color: #0f2e1d;
+}
+
+/* Error message */
+.error {
+  background-color: #ffcdd2;
+  color: #c62828;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* Link */
+.login-container p {
+  margin-top: 20px;
+  color: #666;
+}
+
+.login-container a {
+  color: #123524;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
