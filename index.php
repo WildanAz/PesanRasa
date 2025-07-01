@@ -46,7 +46,8 @@ include 'koneksi_crud.php';
                     <h3>Nasi Goreng Spesial</h3>
                     <p>Rp. 20.000</p>
                     <div class="tambah-pesanan">
-                        <button class="btn-tambah">Tambah Pesanan</button>
+                        <input type="checkbox" id="menu1" class="checkbox-tambah">
+                        <label for="menu1" class="btn-tambah">Tambah Pesanan</label>
                     </div>
                 </div>
                 <div class="menu-items">
@@ -54,7 +55,8 @@ include 'koneksi_crud.php';
                     <h3>Nasi Goreng Spesial</h3>
                     <p>Rp. 20.000</p>
                     <div class="tambah-pesanan">
-                        <button class="btn-tambah">Tambah Pesanan</button>
+                        <input type="checkbox" id="menu2" class="checkbox-tambah">
+                        <label for="menu2" class="btn-tambah">Tambah Pesanan</label>
                     </div>
                 </div>
                 <div class="menu-items">
@@ -62,7 +64,8 @@ include 'koneksi_crud.php';
                     <h3>Nasi Goreng Spesial</h3>
                     <p>Rp. 20.000</p>
                     <div class="tambah-pesanan">
-                        <button class="btn-tambah">Tambah Pesanan</button>
+                        <input type="checkbox" id="menu3" class="checkbox-tambah">
+                        <label for="menu3" class="btn-tambah">Tambah Pesanan</label>
                     </div>
                 </div>
             </div>
@@ -76,7 +79,8 @@ include 'koneksi_crud.php';
                     <h3>Nasi Goreng Spesial</h3>
                     <p>Rp. 20.000</p>
                     <div class="tambah-pesanan">
-                        <button class="btn-tambah">Tambah Pesanan</button>
+                        <input type="checkbox" id="menu4" class="checkbox-tambah">
+                        <label for="menu4" class="btn-tambah">Tambah Pesanan</label>
                     </div>
                 </div>
                 <div class="menu-items">
@@ -84,7 +88,8 @@ include 'koneksi_crud.php';
                     <h3>Nasi Goreng Spesial</h3>
                     <p>Rp. 20.000</p>
                     <div class="tambah-pesanan">
-                        <button class="btn-tambah">Tambah Pesanan</button>
+                        <input type="checkbox" id="menu5`" class="checkbox-tambah">
+                        <label for="menu5" class="btn-tambah">Tambah Pesanan</label>
                     </div>
                 </div>
                 <div class="menu-items">
@@ -92,7 +97,8 @@ include 'koneksi_crud.php';
                     <h3>Nasi Goreng Spesial</h3>
                     <p>Rp. 20.000</p>
                     <div class="tambah-pesanan">
-                        <button class="btn-tambah">Tambah Pesanan</button>
+                        <input type="checkbox" id="menu6" class="checkbox-tambah">
+                        <label for="menu6" class="btn-tambah">Tambah Pesanan</label>
                     </div>
                 </div>
                 <div class="menu-items">
@@ -100,7 +106,8 @@ include 'koneksi_crud.php';
                     <h3>Nasi Goreng Spesial</h3>
                     <p>Rp. 20.000</p>
                     <div class="tambah-pesanan">
-                        <button class="btn-tambah">Tambah Pesanan</button>
+                        <input type="checkbox" id="menu7" class="checkbox-tambah">
+                        <label for="menu7" class="btn-tambah">Tambah Pesanan</label>
                     </div>
                 </div>
             </div>

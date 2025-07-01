@@ -179,12 +179,14 @@ hr {
   font-weight: bold;
 }
 
-/* Tombol tambah pesanan */
-.tambah-pesanan {
-  margin-bottom: 15px;
+/* Sembunyikan checkbox asli */
+.checkbox-tambah {
+  display: none;
 }
 
+/* Gaya tombol untuk label */
 .btn-tambah {
+  display: inline-block;
   background-color: #4CAF50;
   color: #fff;
   border: none;
@@ -192,11 +194,20 @@ hr {
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  text-align: center;
+  user-select: none;
 }
 
+/* Hover efek */
 .btn-tambah:hover {
   background-color: #e64a19;
 }
+
+/* Checkbox aktif (tombol terpilih) */
+.checkbox-tambah:checked + .btn-tambah {
+  background-color: #e64a19;
+}
+
 
 /* Tombol "Pesan Sekarang" */
 .btn-pesan {
@@ -218,6 +229,72 @@ hr {
 .btn-pesan .btn:hover {
   background-color: #388e3c;
 }
+
+/* Overlay latar belakang */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 100vh;
+  display: none; /* Default: hidden */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Kotak form */
+.popup {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.popup h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.popup input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+#pesanan-terpilih p {
+  margin: 0 0 8px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Tombol */
+.popup-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.popup-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.popup-buttons #batal {
+  background-color: #888;
+}
+
 
 
 /* Responsif */
