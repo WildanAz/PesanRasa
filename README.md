@@ -6,8 +6,8 @@
 
 ## 🖼️ Tampilan Utama
 
-![Halaman Pengguna](screenshots/HalamanUtama.png)
-![Dashboard Admin](screenshots/HalamanAdmin.png)
+![Halaman Pengguna](tampilan/HalamanUtama.png)
+![Dashboard Admin](tampilan/dashboardadmin.png)
 
 ---
 
