@@ -38,5 +38,31 @@
 
 ---
 
-## 📂 Struktur Folder Sederhana
+## 📂 Struktur Folder
+
+---
+
+## 🧑‍💻 Instalasi Lokal
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/username/pesanrasa.git
+   cd pesanrasa
+
+2. **Aktifkan Apache dan Sql pada XAMPP**
+
+3. **Import Database**
+   - Pada folder database ambil **pesanrasa.sql**
+   - kemudian masuk ke phpmyadmin dan import database
+
+4. **Pastikan koneksi database**
+   - Pastikan **$conn** pada file **koneksi_crud.php** sesuai dengan database
+     
+5. **Jalankan Web**
+   - Setelah langkah - langkah sebelumnya dilakukan maka jalankan web dengan menggunakan **localhost/CRUD_WEB/index.php**
+
+
+## Penulis
+** Nama : Wildan Azhar **
+
+
 
