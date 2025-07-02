@@ -58,7 +58,9 @@
    - Pastikan **$conn** pada file **koneksi_crud.php** sesuai dengan database
      
 5. **Jalankan Web**
-   - Setelah langkah - langkah sebelumnya dilakukan maka jalankan web dengan menggunakan **localhost/CRUD_WEB/index.php**
+   - Setelah langkah - langkah sebelumnya dilakukan maka jalankan web dengan menggunakan    ```chrome
+   git clone https://github.com/username/pesanrasa.git
+   cd pesanrasa
 
 
 ## Penulis
