@@ -60,15 +60,13 @@
 5. **Jalankan Web**
    - Buka browser lalu akses: [http://localhost/pesanrasa/index.php](http://localhost/pesanrasa/index.php)
 
-
-
 ---
 
 ## ✍️ Penulis
 
--- **Nama:** Wildan Azhar  
--- **Email:** [wildan123kng@gmail.com](mailto:wildan123kng@gmail.com)
--- **GitHub:** [github.com/WildanAz]([https://github.com/WildanAz]) 
+- **Nama:** Wildan Azhar  
+- **Email:** [wildan123kng@gmail.com](mailto:wildan123kng@gmail.com)  
+- **GitHub:** [github.com/WildanAz](https://github.com/WildanAz)
 
 
 
