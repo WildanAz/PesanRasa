@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // Cek apakah username dan password sesuai
     $query = "SELECT * FROM admin WHERE username='$username' AND password='$password'";
-    $result = mysqli_query($coon, $query);
+    $result = mysqli_query($conn, $query);
 
     if (mysqli_num_rows($result) > 0) {
         $_SESSION['username'] = $username;
