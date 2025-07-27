@@ -1,0 +1,315 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 60px;
+  background-color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.waktu {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #5DB996;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.login a{
+  display: inline-block;
+  background-color: #5DB996;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.login a:hover {
+  background-color: #e64a19;
+}
+
+
+/* Container dasar */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  /* color: #fff; */
+}
+
+/* Flexbox untuk banner */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* Kolom kiri */
+.banner {
+  flex: 1;
+  min-width: 300px;
+}
+
+.banner-pesan h1 {
+  font-size: 2.5rem;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.banner-pesan p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #5DB996;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e64a19;
+}
+
+/* Kolom kanan */
+.banner-img {
+  flex: 1;
+
+}
+
+.banner-img img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+
+}
+
+/* Container keseluruhan */
+.container-menu {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Judul Section */
+.menu-makanan h2,
+.menu-minuman h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+/* Garis bawah */
+hr {
+  border: none;
+  border-top: 2px solid #ddd;
+  margin-bottom: 20px;
+}
+
+/* Grid Card */
+.menu-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+/* Kartu makanan/minuman */
+.menu-items {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.menu-items:hover {
+  transform: translateY(-5px);
+}
+
+/* Gambar */
+.menu-items img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+/* Teks */
+.menu-items h3 {
+  font-size: 1.25rem;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.menu-items p {
+  color: #888;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Sembunyikan checkbox asli */
+.checkbox-tambah {
+  display: none;
+}
+
+/* Gaya tombol untuk label */
+.btn-tambah {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  user-select: none;
+}
+
+/* Hover efek */
+.btn-tambah:hover {
+  background-color: #e64a19;
+}
+
+/* Checkbox aktif (tombol terpilih) */
+.checkbox-tambah:checked + .btn-tambah {
+  background-color: #e64a19;
+}
+
+
+/* Tombol "Pesan Sekarang" */
+.btn-pesan {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.btn-pesan .btn {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 14px 28px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-pesan .btn:hover {
+  background-color: #388e3c;
+}
+
+/* Overlay latar belakang */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 100vh;
+  display: none; /* Default: hidden */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Kotak form */
+.popup {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.popup h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.popup input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+#pesanan-terpilih p {
+  margin: 0 0 8px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Tombol */
+.popup-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.popup-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.popup-buttons #batal {
+  background-color: #888;
+}
+
+
+
+/* Responsif */
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .banner-img {
+    height: 200px;
+  }
+
+    .menu-card {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .menu-items img {
+    height: 140px;
+  }
+}
+

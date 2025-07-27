@@ -1,6 +1,6 @@
 <?php
-$coon = mysqli_connect("localhost","root","","pesanrasa");
-if (!$coon) {
+$conn = mysqli_connect("localhost","root","","pesanrasa");
+if (!$conn) {
     die("Koneksi gagal: " . mysqli_connect_error());
 }
 ?>
